@@ -1,0 +1,239 @@
+﻿@model WeddingPlannerProject.Model.ProductPackage
+
+@{
+    Layout = "~/Areas/User/Views/Shared/_UserLayout.cshtml";
+}
+
+    <section id="selling-product" class="overflow-hidden">
+        <div class="container padding-medium pt-5 aos-init aos-animate" data-aos="fade-up">
+            <div class="row g-md-5">
+                <div class="col-lg-6">
+                    <div class="row">
+                        <div class="col-md-3 d-none d-md-flex">
+                            <!-- product-thumbnail-slider -->
+                            <div class="swiper product-thumbnail-slider swiper-initialized swiper-vertical swiper-backface-hidden swiper-thumbs">
+                                <div class="swiper-wrapper" id="swiper-wrapper-164107e92250397e4" aria-live="off" style="transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;">
+                                    <div class="swiper-slide swiper-slide-visible swiper-slide-active" style="height: 165px; margin-bottom: 30px;" role="group" aria-label="1 / 4" data-swiper-slide-index="0">
+                                        <img src="@Model.ImageUrl" alt="img" class="thumb-image img-fluid">
+                                    </div>
+                                    <div class="swiper-slide swiper-slide-visible swiper-slide-next" style="height: 165px; margin-bottom: 30px;" role="group" aria-label="2 / 4" data-swiper-slide-index="1">
+                                        <img src="@Model.ImageUrl" alt="img" class="thumb-image img-fluid">
+                                    </div>
+                                    <div class="swiper-slide swiper-slide-visible swiper-slide-thumb-active" style="height: 165px; margin-bottom: 30px;" role="group" aria-label="3 / 4" data-swiper-slide-index="2">
+                                        <img src="@Model.ImageUrl" alt="img" class="thumb-image img-fluid">
+                                    </div>
+                                    <div class="swiper-slide" role="group" aria-label="4 / 4" data-swiper-slide-index="3" style="height: 165px; margin-bottom: 30px;">
+                                        <img src="@Model.ImageUrl" alt="img" class="thumb-image img-fluid">
+                                    </div>
+                                </div>
+                                <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+                            <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span><span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+                            <!-- / product-thumbnail-slider -->
+                        </div>
+                        <div class="col-md-9">
+                            <!-- product-large-slider -->
+                            <div class="swiper product-large-slider swiper-fade swiper-initialized swiper-horizontal swiper-watch-progress swiper-backface-hidden">
+                                <div class="swiper-wrapper" id="swiper-wrapper-87cc64db870acf2f" aria-live="off" style="transition-duration: 0ms;">
+                                    
+                                    
+                                    
+                                    
+                                <div class="swiper-slide swiper-slide-next" style="width: 462px; opacity: 1; transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;" role="group" aria-label="2 / 4" data-swiper-slide-index="1">
+                                        <img src="@Model.ImageUrl" alt="product-large" class="img-fluid">
+                                    </div><div class="swiper-slide" role="group" aria-label="4 / 4" style="width: 462px; opacity: 1; transform: translate3d(-462px, 0px, 0px); transition-duration: 0ms;" data-swiper-slide-index="3">
+                                        <img src="@Model.ImageUrl" alt="product-large" class="img-fluid">
+                                    </div><div class="swiper-slide swiper-slide-prev" style="width: 462px; opacity: 1; transform: translate3d(-924px, 0px, 0px); transition-duration: 0ms;" role="group" aria-label="1 / 4" data-swiper-slide-index="0">
+                                        <img src="@Model.ImageUrl" alt="product-large" class="img-fluid">
+                                    </div><div class="swiper-slide swiper-slide-visible swiper-slide-active" style="width: 462px; opacity: 1; transform: translate3d(-1386px, 0px, 0px); transition-duration: 0ms;" role="group" aria-label="3 / 4" data-swiper-slide-index="2">
+                                        <img src="@Model.ImageUrl" alt="product-large" class="img-fluid">
+                                    </div></div>
+                                <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+                            <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span><span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+                            <!-- / product-large-slider -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 mt-5">
+                    <div class="product-info">
+                        <div class="element-header">
+                            <h2 class="display-6 fw-semibold mt-0 mb-3">@Model.Name</h2>
+
+                            <div class="rating-container d-flex gap-0 align-items-center">
+                              
+                            </div>
+                        </div>
+                        <div class="product-price py-3">
+            <strong class="text-primary display-6 fw-semibold">@Model.Price.ToString("N0") ₺</strong>
+                        </div>
+                        <p class="m-0">
+            @Model.Description
+                        </p>
+
+           
+
+                        <div class="product-quantity">
+                            <div class="stock-number text-dark mb-2"><em>Sizinle detaylar için iletişime geçilecektir</em></div>
+                            <div class="stock-button-wrap">
+                                <div class=" d-md-flex flex-wrap align-items-center">
+                                    <div class="input-group product-qty product-box ">
+                                  
+                                      
+                                    </div>
+<a href="/User/Reservation/Create/@Model.Id" class="btn btn-primary">
+    Sepete Ekle ve Rezerve Et
+</a>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="product-tabs">
+        <div class="container padding-medium pt-0 aos-init" data-aos="fade-up&gt;
+             &lt;div class=" row"="">
+            <div class="tabs-listing card p-4">
+                <nav>
+                    <div class="nav nav-tabs d-flex justify-content-center" id="nav-tab" role="tablist">
+                        <button class="nav-link active text-uppercase fs-5 fw-semibold px-5 py-3 mx-3" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Details</button>
+                        <button class="nav-link text-uppercase fs-5 fw-semibold px-5 py-3 mx-3" id="nav-information-tab" data-bs-toggle="tab" data-bs-target="#nav-information" type="button" role="tab" aria-controls="nav-information" aria-selected="false" tabindex="-1">How To Use</button>
+                        <button class="nav-link text-uppercase fs-5 fw-semibold px-5 py-3 mx-3" id="nav-shipping-tab" data-bs-toggle="tab" data-bs-target="#nav-shipping" type="button" role="tab" aria-controls="nav-shipping" aria-selected="false" tabindex="-1">Shipping &amp; Return</button>
+                        <button class="nav-link text-uppercase fs-5 fw-semibold px-5 py-3 mx-3" id="nav-review-tab" data-bs-toggle="tab" data-bs-target="#nav-review" type="button" role="tab" aria-controls="nav-review" aria-selected="false" tabindex="-1">Reviews</button>
+                    </div>
+                </nav>
+                <div class="tab-content py-5" id="nav-tabContent">
+                    <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                        <h4>Product Description</h4>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros.
+                            Nullam malesuada erat ut turpis. Suspendisse urna viverra non, semper suscipit, posuere a, pede. Donec
+                            nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim
+                            pellentesque felis. Phasellus ultrices nulla quis nibh. Quisque a lectus. Donec consectetuer ligula
+                            vulputate sem tristique cursus.
+                        </p>
+                        <ul>
+                            <li>Donec nec justo eget felis facilisis fermentum.</li>
+                            <li>Suspendisse urna viverra non, semper suscipit pede.</li>
+                            <li>Aliquam porttitor mauris sit amet orci.</li>
+                        </ul> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis
+                        eros. Nullam malesuada erat ut turpis. Suspendisse urna viverra non, semper suscipit, posuere a, pede.
+                        Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim
+                        pellentesque felis. Phasellus ultrices nulla quis nibh. Quisque a lectus. Donec consectetuer ligula
+                        vulputate sem tristique cursus. <p></p>
+                    </div>
+                    <div class="tab-pane fade" id="nav-information" role="tabpanel" aria-labelledby="nav-information-tab">
+                        <h4>Best ways to use</h4>
+                        <p>
+                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+                            anim id est laborum. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                            fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                            deserunt mollit anim id est laborum.
+                        </p>
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat molestiae suscipit saepe distinctio
+                            quod, consequuntur tempore dolore, repellat quasi dolores ducimus consequatur quis quos adipisci quam
+                            vero officiis fuga voluptatem!
+                        </p>
+                    </div>
+                    <div class="tab-pane fade" id="nav-shipping" role="tabpanel" aria-labelledby="nav-shipping-tab">
+                        <h4>Returns Policy</h4>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eros justo, accumsan non dui sit amet.
+                            Phasellus semper volutpat mi sed imperdiet. Ut odio lectus, vulputate non ex non, mattis sollicitudin
+                            purus. Mauris consequat justo a enim interdum, in consequat dolor accumsan. Nulla iaculis diam purus,
+                            ut vehicula leo efficitur at.
+                        </p>
+                        <p>
+                            Interdum et malesuada fames ac ante ipsum primis in faucibus. In blandit nunc enim, sit amet pharetra
+                            erat aliquet ac.
+                        </p>
+                        <h4>Shipping</h4>
+                        <p>
+                            Pellentesque ultrices ut sem sit amet lacinia. Sed nisi dui, ultrices ut turpis pulvinar. Sed
+                            fringilla ex eget lorem consectetur, consectetur blandit lacus varius. Duis vel scelerisque elit, et
+                            vestibulum metus. Integer sit amet tincidunt tortor. Ut lacinia ullamcorper massa, a fermentum arcu
+                            vehicula ut. Ut efficitur faucibus dui Nullam tristique dolor eget turpis consequat varius. Quisque a
+                            interdum augue. Nam ut nibh mauris.
+                        </p>
+                    </div>
+                    <div class="tab-pane fade" id="nav-review" role="tabpanel" aria-labelledby="nav-review-tab">
+                        <div class="review-box d-flex flex-wrap">
+                            <div class="col-lg-6 d-flex flex-wrap gap-3">
+                                <div class="col-md-2">
+                                    <div class="image-holder">
+                                        <img src="images/commentor-item2.jpg" alt="review" class="img-fluid rounded-circle">
+                                    </div>
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="review-content">
+                                        <span class="rating secondary-font">
+                                            <iconify-icon icon="clarity:star-solid" class="text-warning"><template shadowrootmode="open"><style data-style="data-style">:host{display:inline-block;vertical-align:0}span,svg{display:block}</style><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 36 36"><path fill="currentColor" d="M34 16.78a2.22 2.22 0 0 0-1.29-4l-9-.34a.23.23 0 0 1-.2-.15l-3.11-8.4a2.22 2.22 0 0 0-4.17 0l-3.1 8.43a.23.23 0 0 1-.2.15l-9 .34a2.22 2.22 0 0 0-1.29 4l7.06 5.55a.23.23 0 0 1 .08.24l-2.43 8.61a2.22 2.22 0 0 0 3.38 2.45l7.46-5a.22.22 0 0 1 .25 0l7.46 5a2.2 2.2 0 0 0 2.55 0a2.2 2.2 0 0 0 .83-2.4l-2.45-8.64a.22.22 0 0 1 .08-.24Z" class="clr-i-solid clr-i-solid-path-1"></path><path fill="none" d="M0 0h36v36H0z"></path></svg></template>
+                                            </iconify-icon>
+                                            <iconify-icon icon="clarity:star-solid" class="text-warning"><template shadowrootmode="open"><style data-style="data-style">:host{display:inline-block;vertical-align:0}span,svg{display:block}</style><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 36 36"><path fill="currentColor" d="M34 16.78a2.22 2.22 0 0 0-1.29-4l-9-.34a.23.23 0 0 1-.2-.15l-3.11-8.4a2.22 2.22 0 0 0-4.17 0l-3.1 8.43a.23.23 0 0 1-.2.15l-9 .34a2.22 2.22 0 0 0-1.29 4l7.06 5.55a.23.23 0 0 1 .08.24l-2.43 8.61a2.22 2.22 0 0 0 3.38 2.45l7.46-5a.22.22 0 0 1 .25 0l7.46 5a2.2 2.2 0 0 0 2.55 0a2.2 2.2 0 0 0 .83-2.4l-2.45-8.64a.22.22 0 0 1 .08-.24Z" class="clr-i-solid clr-i-solid-path-1"></path><path fill="none" d="M0 0h36v36H0z"></path></svg></template>
+                                            </iconify-icon>
+                                            <iconify-icon icon="clarity:star-solid" class="text-warning"><template shadowrootmode="open"><style data-style="data-style">:host{display:inline-block;vertical-align:0}span,svg{display:block}</style><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 36 36"><path fill="currentColor" d="M34 16.78a2.22 2.22 0 0 0-1.29-4l-9-.34a.23.23 0 0 1-.2-.15l-3.11-8.4a2.22 2.22 0 0 0-4.17 0l-3.1 8.43a.23.23 0 0 1-.2.15l-9 .34a2.22 2.22 0 0 0-1.29 4l7.06 5.55a.23.23 0 0 1 .08.24l-2.43 8.61a2.22 2.22 0 0 0 3.38 2.45l7.46-5a.22.22 0 0 1 .25 0l7.46 5a2.2 2.2 0 0 0 2.55 0a2.2 2.2 0 0 0 .83-2.4l-2.45-8.64a.22.22 0 0 1 .08-.24Z" class="clr-i-solid clr-i-solid-path-1"></path><path fill="none" d="M0 0h36v36H0z"></path></svg></template>
+                                            </iconify-icon>
+                                            <iconify-icon icon="clarity:star-solid" class="text-warning"><template shadowrootmode="open"><style data-style="data-style">:host{display:inline-block;vertical-align:0}span,svg{display:block}</style><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 36 36"><path fill="currentColor" d="M34 16.78a2.22 2.22 0 0 0-1.29-4l-9-.34a.23.23 0 0 1-.2-.15l-3.11-8.4a2.22 2.22 0 0 0-4.17 0l-3.1 8.43a.23.23 0 0 1-.2.15l-9 .34a2.22 2.22 0 0 0-1.29 4l7.06 5.55a.23.23 0 0 1 .08.24l-2.43 8.61a2.22 2.22 0 0 0 3.38 2.45l7.46-5a.22.22 0 0 1 .25 0l7.46 5a2.2 2.2 0 0 0 2.55 0a2.2 2.2 0 0 0 .83-2.4l-2.45-8.64a.22.22 0 0 1 .08-.24Z" class="clr-i-solid clr-i-solid-path-1"></path><path fill="none" d="M0 0h36v36H0z"></path></svg></template>
+                                            </iconify-icon>
+                                            <iconify-icon icon="clarity:half-star-solid" class="text-warning"><template shadowrootmode="open"><style data-style="data-style">:host{display:inline-block;vertical-align:0}span,svg{display:block}</style><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 36 36"><path fill="currentColor" d="M34 16.78a2.22 2.22 0 0 0-1.29-4l-9-.34a.23.23 0 0 1-.2-.15l-3.11-8.4a2.22 2.22 0 0 0-4.17 0l-3.1 8.43a.23.23 0 0 1-.2.15l-9 .34a2.22 2.22 0 0 0-1.29 4l7.06 5.55a.23.23 0 0 1 .08.24l-2.43 8.61a2.22 2.22 0 0 0 3.38 2.45l7.46-5a.22.22 0 0 1 .25 0l7.46 5a2.2 2.2 0 0 0 2.55 0a2.2 2.2 0 0 0 .83-2.4l-2.45-8.64a.22.22 0 0 1 .08-.24Zm-9.1 6.33l2.45 8.64A.22.22 0 0 1 27 32l-7.46-5a2.2 2.2 0 0 0-1.24-.38V4.44a.2.2 0 0 1 .21.15L21.62 13a2.22 2.22 0 0 0 2 1.46l9 .34a.22.22 0 0 1 .13.4l-7.06 5.55a2.21 2.21 0 0 0-.79 2.36" class="clr-i-solid clr-i-solid-path-1"></path><path fill="none" d="M0 0h36v36H0z"></path></svg></template>
+                                            </iconify-icon>
+                                            (4.5)
+                                        </span>
+                                        <div class="review-header">
+                                            <span class="author-name text-black fw-bold">Mark Johnson</span>
+                                            <span class="review-date">– 03/07/2024</span>
+                                        </div>
+                                        <p>
+                                            Vitae tortor condimentum lacinia quis vel eros donec ac. Nam at lectus urna duis convallis
+                                            convallis
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 d-flex flex-wrap gap-3">
+                                <div class="col-md-2">
+                                    <div class="image-holder">
+                                        <img src="images/commentor-item3.jpg" alt="review" class="img-fluid rounded-circle">
+                                    </div>
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="review-content">
+                                        <div class="rating-container d-flex align-items-center">
+                                            <span class="rating secondary-font">
+                                                <iconify-icon icon="clarity:star-solid" class="text-warning"><template shadowrootmode="open"><style data-style="data-style">:host{display:inline-block;vertical-align:0}span,svg{display:block}</style><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 36 36"><path fill="currentColor" d="M34 16.78a2.22 2.22 0 0 0-1.29-4l-9-.34a.23.23 0 0 1-.2-.15l-3.11-8.4a2.22 2.22 0 0 0-4.17 0l-3.1 8.43a.23.23 0 0 1-.2.15l-9 .34a2.22 2.22 0 0 0-1.29 4l7.06 5.55a.23.23 0 0 1 .08.24l-2.43 8.61a2.22 2.22 0 0 0 3.38 2.45l7.46-5a.22.22 0 0 1 .25 0l7.46 5a2.2 2.2 0 0 0 2.55 0a2.2 2.2 0 0 0 .83-2.4l-2.45-8.64a.22.22 0 0 1 .08-.24Z" class="clr-i-solid clr-i-solid-path-1"></path><path fill="none" d="M0 0h36v36H0z"></path></svg></template>
+                                                </iconify-icon>
+                                                <iconify-icon icon="clarity:star-solid" class="text-warning"><template shadowrootmode="open"><style data-style="data-style">:host{display:inline-block;vertical-align:0}span,svg{display:block}</style><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 36 36"><path fill="currentColor" d="M34 16.78a2.22 2.22 0 0 0-1.29-4l-9-.34a.23.23 0 0 1-.2-.15l-3.11-8.4a2.22 2.22 0 0 0-4.17 0l-3.1 8.43a.23.23 0 0 1-.2.15l-9 .34a2.22 2.22 0 0 0-1.29 4l7.06 5.55a.23.23 0 0 1 .08.24l-2.43 8.61a2.22 2.22 0 0 0 3.38 2.45l7.46-5a.22.22 0 0 1 .25 0l7.46 5a2.2 2.2 0 0 0 2.55 0a2.2 2.2 0 0 0 .83-2.4l-2.45-8.64a.22.22 0 0 1 .08-.24Z" class="clr-i-solid clr-i-solid-path-1"></path><path fill="none" d="M0 0h36v36H0z"></path></svg></template>
+                                                </iconify-icon>
+                                                <iconify-icon icon="clarity:star-solid" class="text-warning"><template shadowrootmode="open"><style data-style="data-style">:host{display:inline-block;vertical-align:0}span,svg{display:block}</style><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 36 36"><path fill="currentColor" d="M34 16.78a2.22 2.22 0 0 0-1.29-4l-9-.34a.23.23 0 0 1-.2-.15l-3.11-8.4a2.22 2.22 0 0 0-4.17 0l-3.1 8.43a.23.23 0 0 1-.2.15l-9 .34a2.22 2.22 0 0 0-1.29 4l7.06 5.55a.23.23 0 0 1 .08.24l-2.43 8.61a2.22 2.22 0 0 0 3.38 2.45l7.46-5a.22.22 0 0 1 .25 0l7.46 5a2.2 2.2 0 0 0 2.55 0a2.2 2.2 0 0 0 .83-2.4l-2.45-8.64a.22.22 0 0 1 .08-.24Z" class="clr-i-solid clr-i-solid-path-1"></path><path fill="none" d="M0 0h36v36H0z"></path></svg></template>
+                                                </iconify-icon>
+                                                <iconify-icon icon="clarity:half-star-solid" class="text-warning"><template shadowrootmode="open"><style data-style="data-style">:host{display:inline-block;vertical-align:0}span,svg{display:block}</style><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 36 36"><path fill="currentColor" d="M34 16.78a2.22 2.22 0 0 0-1.29-4l-9-.34a.23.23 0 0 1-.2-.15l-3.11-8.4a2.22 2.22 0 0 0-4.17 0l-3.1 8.43a.23.23 0 0 1-.2.15l-9 .34a2.22 2.22 0 0 0-1.29 4l7.06 5.55a.23.23 0 0 1 .08.24l-2.43 8.61a2.22 2.22 0 0 0 3.38 2.45l7.46-5a.22.22 0 0 1 .25 0l7.46 5a2.2 2.2 0 0 0 2.55 0a2.2 2.2 0 0 0 .83-2.4l-2.45-8.64a.22.22 0 0 1 .08-.24Zm-9.1 6.33l2.45 8.64A.22.22 0 0 1 27 32l-7.46-5a2.2 2.2 0 0 0-1.24-.38V4.44a.2.2 0 0 1 .21.15L21.62 13a2.22 2.22 0 0 0 2 1.46l9 .34a.22.22 0 0 1 .13.4l-7.06 5.55a2.21 2.21 0 0 0-.79 2.36" class="clr-i-solid clr-i-solid-path-1"></path><path fill="none" d="M0 0h36v36H0z"></path></svg></template>
+                                                </iconify-icon>
+                                                <iconify-icon icon="clarity:star-line" class="text-warning"><template shadowrootmode="open"><style data-style="data-style">:host{display:inline-block;vertical-align:0}span,svg{display:block}</style><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 36 36"><path fill="currentColor" d="M27.19 34a2.2 2.2 0 0 1-1.24-.38l-7.46-5a.22.22 0 0 0-.25 0l-7.46 5a2.22 2.22 0 0 1-3.38-2.41l2.45-8.64a.23.23 0 0 0-.08-.24l-7.06-5.55a2.22 2.22 0 0 1 1.29-4l9-.34a.23.23 0 0 0 .2-.15l3.1-8.43a2.22 2.22 0 0 1 4.17 0l3.1 8.43a.23.23 0 0 0 .2.15l9 .34a2.22 2.22 0 0 1 1.29 4L27 22.33a.22.22 0 0 0-.08.24l2.45 8.64A2.23 2.23 0 0 1 27.19 34m-8.82-7.42a2.2 2.2 0 0 1 1.23.42l7.46 5a.22.22 0 0 0 .34-.25l-2.45-8.64a2.21 2.21 0 0 1 .77-2.35l7.06-5.55a.22.22 0 0 0-.13-.4l-9-.34a2.22 2.22 0 0 1-2-1.46l-3.1-8.43a.22.22 0 0 0-.42 0L15.06 13a2.22 2.22 0 0 1-2 1.46l-9 .34a.22.22 0 0 0-.13.4L11 20.76a2.22 2.22 0 0 1 .77 2.35l-2.44 8.64a.21.21 0 0 0 .08.24a.2.2 0 0 0 .26 0l7.46-5a2.2 2.2 0 0 1 1.23-.37Z" class="clr-i-outline clr-i-outline-path-1"></path><path fill="none" d="M0 0h36v36H0z"></path></svg></template>
+                                                </iconify-icon>
+                                                (3.5)
+                                            </span>
+                                        </div>
+
+                                        <div class="review-header">
+                                            <span class="author-name text-black fw-bold">Jenny Willis</span>
+                                            <span class="review-date">– 03/06/2022</span>
+                                        </div>
+                                        <p>
+                                            Vitae tortor condimentum lacinia quis vel eros donec ac. Nam at lectus urna duis convallis
+                                            convallis
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>

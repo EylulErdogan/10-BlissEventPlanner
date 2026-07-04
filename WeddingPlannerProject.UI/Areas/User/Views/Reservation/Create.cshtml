@@ -1,0 +1,68 @@
+﻿@model WeddingPlannerProject.Model.Reservation
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+@{
+    Layout = "~/Areas/User/Views/Shared/_UserLayout.cshtml";
+}
+
+<section id="inquiry" class="overflow-hidden">
+    <div class="container-lg padding-medium pt-0">
+        <div class="row justify-content-center" data-aos="fade-up">
+            <div class="col-md-6 text-center">
+                <div class="card p-4">
+                    <div class="p-4 border border-2 border-primary rounded-2">
+
+                        <h2 class="display-4 fw-normal mb-3">Rezervasyon Oluştur</h2>
+
+                        <p>
+                            @ViewBag.ProductName için rezervasyon talebi bırakın.
+                        </p>
+
+                        <form asp-action="Create" method="post" class="contact-form row mt-5">
+
+                            <input asp-for="ProductPackageId" type="hidden" />
+
+                            <div class="form-input col-lg-12 mb-3">
+                                <input asp-for="FullName"
+                                       name="FullName"
+                                       placeholder="Ad Soyad"
+                                       class="form-control w-100 ps-4 py-3 mb-2" />
+                            </div>
+
+                            <div class="form-input col-lg-12 mb-3">
+                                <input asp-for="Phone"
+                                       name="Phone"
+                                       placeholder="Telefon Numaranız"
+                                       class="form-control w-100 ps-4 py-3 mb-2" />
+                            </div>
+
+                            <div class="form-input col-lg-12 mb-3">
+                                <input asp-for="WeddingDate"
+                                       name="WeddingDate"
+                                       type="date"
+                                       class="form-control w-100 ps-4 py-3 mb-2" />
+
+                            </div>
+
+                            <div class="col-md-12 col-sm-12 mb-4">
+                                <textarea asp-for="Note"
+                                          name="Note"
+                                          rows="4"
+                                          class="form-control w-100 ps-4 py-3"
+                                          placeholder="Eklemek istediğiniz not"></textarea>
+                            </div>
+
+                            <div class="col-12">
+                                <button type="submit" class="btn btn-primary mt-3">
+                                    Rezervasyon Gönder
+                                </button>
+                            </div>
+
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,85 @@
+﻿@model IEnumerable<WeddingPlannerProject.Model.Comment>
+
+@{
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2 class="fw-bold mb-4">Yorumlar</h2>
+
+<div class="card shadow-sm border-0">
+    <div class="card-body">
+
+        <table class="table table-hover align-middle">
+
+            <thead>
+
+                <tr>
+                    <th>Ad Soyad</th>
+                    <th>Paket</th>
+                    <th>Yorum</th>
+                    <th>Tarih</th>
+                    <th>Durum</th>
+                    <th></th>
+                </tr>
+
+            </thead>
+
+            <tbody>
+
+                @foreach (var item in Model)
+                {
+                    <tr>
+
+                        <td>@item.FullName</td>
+
+                        <td>@item.ProductPackage.Name</td>
+
+                        <td>@item.Message</td>
+
+                        <td>@item.CommentDate.ToShortDateString()</td>
+
+                        <td>
+
+                            @if (item.IsApproved)
+                            {
+                                <span class="badge bg-success">
+                                    Onaylandı
+                                </span>
+                            }
+                            else
+                            {
+                                <span class="badge bg-warning text-dark">
+                                    Bekliyor
+                                </span>
+                            }
+
+                        </td>
+
+                        <td class="text-end">
+
+                            @if (!item.IsApproved)
+                            {
+                                <a asp-action="Approve"
+                                   asp-route-id="@item.Id"
+                                   class="btn btn-success btn-sm">
+                                    Onayla
+                                </a>
+                            }
+
+                            <a asp-action="Delete"
+                               asp-route-id="@item.Id"
+                               class="btn btn-danger btn-sm">
+                                Sil
+                            </a>
+
+                        </td>
+
+                    </tr>
+                }
+
+            </tbody>
+
+        </table>
+
+    </div>
+</div>

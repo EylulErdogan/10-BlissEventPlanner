@@ -1,0 +1,12 @@
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\10.Projem\WeddingPlannerProject.UI\WeddingPlannerProject.Model\bin\Debug\net10.0\WeddingPlannerProject.Model.deps.json
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\10.Projem\WeddingPlannerProject.UI\WeddingPlannerProject.Model\bin\Debug\net10.0\WeddingPlannerProject.Model.dll
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\10.Projem\WeddingPlannerProject.UI\WeddingPlannerProject.Model\bin\Debug\net10.0\WeddingPlannerProject.Model.pdb
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\10.Projem\WeddingPlannerProject.UI\WeddingPlannerProject.Model\obj\Debug\net10.0\WeddingPlannerProject.Model.csproj.AssemblyReference.cache
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\10.Projem\WeddingPlannerProject.UI\WeddingPlannerProject.Model\obj\Debug\net10.0\WeddingPlannerProject.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\10.Projem\WeddingPlannerProject.UI\WeddingPlannerProject.Model\obj\Debug\net10.0\WeddingPlannerProject.Model.AssemblyInfoInputs.cache
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\10.Projem\WeddingPlannerProject.UI\WeddingPlannerProject.Model\obj\Debug\net10.0\WeddingPlannerProject.Model.AssemblyInfo.cs
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\10.Projem\WeddingPlannerProject.UI\WeddingPlannerProject.Model\obj\Debug\net10.0\WeddingPlannerProject.Model.csproj.CoreCompileInputs.cache
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\10.Projem\WeddingPlannerProject.UI\WeddingPlannerProject.Model\obj\Debug\net10.0\WeddingPlannerProject.Model.dll
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\10.Projem\WeddingPlannerProject.UI\WeddingPlannerProject.Model\obj\Debug\net10.0\refint\WeddingPlannerProject.Model.dll
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\10.Projem\WeddingPlannerProject.UI\WeddingPlannerProject.Model\obj\Debug\net10.0\WeddingPlannerProject.Model.pdb
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\10.Projem\WeddingPlannerProject.UI\WeddingPlannerProject.Model\obj\Debug\net10.0\ref\WeddingPlannerProject.Model.dll

@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="WeddingPlannerProject.Data/WeddingPlannerProject.Data.csproj" />
+  <Project Path="WeddingPlannerProject.Model/WeddingPlannerProject.Model.csproj" />
+  <Project Path="WeddingPlannerProject.UI/WeddingPlannerProject.UI.csproj" />
+</Solution>

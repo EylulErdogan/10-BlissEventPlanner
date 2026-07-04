@@ -1,0 +1,78 @@
+﻿@model IEnumerable<WeddingPlannerProject.Model.ProductPackage>
+@{
+    Layout = "_UserLayout";
+}
+
+<section id="banner" class="position-relative overflow-hidden">
+    <div class="position-absolute top-0 end-0 z-n1 d-none d-md-block aos-init aos-animate" data-aos="fade-left">
+        <img src="images/bg-pattern11.png" alt="pattern" class="img-fluid">
+    </div>
+    <div class="position-absolute bottom-0 z-n1 d-none d-md-block aos-init aos-animate" data-aos="fade-right">
+        
+    </div>
+    <div class="container-lg padding-medium aos-init aos-animate" data-aos="fade-up">
+        <div class="hero-content text-center">
+            <h2 class="banner-title display-2">Shop</h2>
+            <nav class="breadcrumb d-flex justify-content-center">
+                <a class="breadcrumb-item nav-link banner-title" href="index.html">Anasayfa</a>
+                <span class="breadcrumb-item banner-title active" aria-current="page">Hizmetlerimiz</span>
+            </nav>
+        </div>
+    </div>
+</section>
+
+<section id="shop" class="overflow-hidden">
+    <div class="container-lg padding-medium pt-5 aos-init aos-animate" data-aos="fade-up">
+        <div class="row flex-md-row-reverse g-md-5 mb-5">
+            <main class="col-md-12 product-store">
+            
+
+                <div class="row">
+                    @foreach (var item in Model.Where(x => !x.IsPackage))
+                    {
+                    
+                    <div class="col-md-3 mb-3">
+                        <div class="product-item">
+                            <div class="card p-3 image-holder position-relative">
+                                    <a href="/User/ShopList/Detail/@item.Id">
+                                    <img src="@item.ImageUrl" alt="Wedding Cake" class="product-image img-fluid">
+                                </a>
+                                <a href="wishlist.html" class="btn-icon btn-wishlist rounded-circle">
+                                    <svg width="20" height="20">
+                                        <use xlink:href="#heart"></use>
+                                    </svg>
+                                </a>
+                                    <a href="/User/ShopList/Detail/@item.Id" class="btn-icon btn-cart rounded-circle">
+                                    <svg width="20" height="20">
+                                        <use xlink:href="#cart"></use>
+                                    </svg>
+                                </a>
+                                <div class="product-content d-flex justify-content-between align-items-center">
+                                    <h5 class="element-title mt-3">
+                                        <a href="single-product.html">@item.Name</a>
+                                    </h5>
+                                    <h5 class="element-title mt-3">@item.Price</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                        
+                    }
+             
+                </div>
+
+                <nav aria-label="Page navigation example ">
+                    <ul class="pagination justify-content-center mt-5">
+                        <li class="page-item mx-md-2 "><a class="page-link" href="#">Previous</a></li>
+                        <li class="page-item mx-md-2 "><a class="page-link active" href="#">1</a></li>
+                        <li class="page-item mx-md-2 "><a class="page-link" href="#">2</a></li>
+                        <li class="page-item mx-md-2 "><a class="page-link" href="#">3</a></li>
+                        <li class="page-item mx-md-2 "><a class="page-link" href="#">4</a></li>
+                        <li class="page-item mx-md-2 "><a class="page-link" href="#">5</a></li>
+                        <li class="page-item mx-md-2 "><a class="page-link" href="#">Next</a></li>
+                    </ul>
+                </nav>
+            </main>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,212 @@
+﻿@model  WeddingPlannerProject.UI.Models.ViewModels.DashboardViewModel
+
+@{
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="mb-4">
+    <h2 class="fw-bold">Dashboard</h2>
+    <p class="text-muted">Düğün planlama sitesi yönetim paneli</p>
+</div>
+
+<style>
+    .dashboard-card {
+        transition: all .3s ease;
+        cursor: pointer;
+    }
+
+        .dashboard-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 .75rem 1.5rem rgba(0,0,0,.15) !important;
+        }
+</style>
+
+<div class="row g-4">
+
+    <div class="col-md-3">
+        <a href="/Admin/Category/Index" class="text-decoration-none text-dark">
+            <div class="card border-0 shadow-sm h-100 dashboard-card">
+                <div class="card-body">
+                    <h6 class="text-muted">Kategoriler</h6>
+                    <h3 class="fw-bold">@Model.CategoryCount</h3>
+                    <i class="bi bi-tags fs-2 text-secondary"></i>
+                </div>
+            </div>
+        </a>
+    </div>
+
+    <div class="col-md-3">
+        <a href="/Admin/ProductPackage/Index" class="text-decoration-none text-dark">
+            <div class="card border-0 shadow-sm h-100 dashboard-card">
+                <div class="card-body">
+                    <h6 class="text-muted">Ürün / Paket</h6>
+                    <h3 class="fw-bold">@Model.ProductPackageCount</h3>
+                    <i class="bi bi-box-seam fs-2 text-secondary"></i>
+                </div>
+            </div>
+        </a>
+    </div>
+
+    <div class="col-md-3">
+        <a href="/Admin/Reservation/Index" class="text-decoration-none text-dark">
+            <div class="card border-0 shadow-sm h-100 dashboard-card">
+                <div class="card-body">
+                    <h6 class="text-muted">Bekleyen Rezervasyon</h6>
+                    <h3 class="fw-bold">@Model.PendingReservationCount</h3>
+                    <i class="bi bi-calendar-heart fs-2 text-secondary"></i>
+                </div>
+            </div>
+        </a>
+    </div>
+
+    <div class="col-md-3">
+        <a href="/Admin/Sale/Index" class="text-decoration-none text-dark">
+            <div class="card border-0 shadow-sm h-100 dashboard-card">
+                <div class="card-body">
+                    <h6 class="text-muted">Toplam Satış</h6>
+                    <h3 class="fw-bold">@Model.TotalSalesAmount ₺</h3>
+                    <i class="bi bi-cart-check fs-2 text-secondary"></i>
+                </div>
+            </div>
+        </a>
+    </div>
+</div>
+<div class="card border-0 shadow-sm mt-4">
+    <div class="card-body">
+        <h5 class="fw-bold mb-3">Bildirim Merkezi</h5>
+
+        <div class="row g-3">
+            <div class="col-md-4">
+                <a href="/Admin/Reservation/Index" class="text-decoration-none">
+                    <div class="alert alert-warning mb-0 dashboard-card">
+                        <strong>@Model.PendingReservationCount</strong> bekleyen rezervasyon var.
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-md-4">
+                <a href="/Admin/Comment/Index" class="text-decoration-none">
+                    <div class="alert alert-info mb-0 dashboard-card">
+                        <strong>@Model.PendingCommentCount</strong> onaysız yorum var.
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-md-4">
+                <a href="/Admin/ContactRequest/Index" class="text-decoration-none">
+                    <div class="alert alert-secondary mb-0 dashboard-card">
+                        <strong>@Model.ContactRequestCount</strong> aranma talebi var.
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row g-4 mt-1">
+    <div class="col-md-4">
+        <a href="/Admin/Reservation/Index" class="text-decoration-none text-dark">
+            <div class="card border-0 shadow-sm h-100 dashboard-card">
+                <div class="card-body">
+                    <h6 class="text-muted">Toplam Rezervasyon</h6>
+                    <h3 class="fw-bold">@Model.ReservationCount</h3>
+                    <i class="bi bi-calendar-check fs-2 text-secondary"></i>
+                </div>
+            </div>
+        </a>
+    </div>
+
+    <div class="col-md-4">
+        <a href="/Admin/Comment/Index" class="text-decoration-none text-dark">
+            <div class="card border-0 shadow-sm h-100 dashboard-card">
+                <div class="card-body">
+                    <h6 class="text-muted">Onaysız Yorum</h6>
+                    <h3 class="fw-bold">@Model.PendingCommentCount</h3>
+                    <i class="bi bi-chat-dots fs-2 text-secondary"></i>
+                </div>
+            </div>
+        </a>
+    </div>
+
+    <div class="col-md-4">
+        <a href="/Admin/ContactRequest/Index" class="text-decoration-none text-dark">
+            <div class="card border-0 shadow-sm h-100 dashboard-card">
+                <div class="card-body">
+                    <h6 class="text-muted">Aranma Talepleri</h6>
+                    <h3 class="fw-bold">@Model.ContactRequestCount</h3>
+                    <i class="bi bi-telephone fs-2 text-secondary"></i>
+                </div>
+            </div>
+        </a>
+    </div>
+</div>
+
+<div class="row g-4 mt-2">
+    <div class="col-lg-7">
+        <div class="card border-0 shadow-sm">
+            <div class="card-body">
+                <h5 class="fw-bold mb-3">Son 5 Rezervasyon</h5>
+
+                <table class="table table-hover align-middle">
+                    <thead>
+                        <tr>
+                            <th>Ad Soyad</th>
+                            <th>Paket</th>
+                            <th>Tarih</th>
+                            <th>Durum</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model.LastReservations)
+                        {
+                            <tr>
+                                <td>@item.FullName</td>
+                                <td>@item.ProductPackage.Name</td>
+                                <td>@item.WeddingDate.ToShortDateString()</td>
+                                <td>
+                                    @if (item.IsConfirmed)
+                                    {
+                                        <span class="badge bg-success">Onaylandı</span>
+                                    }
+                                    else
+                                    {
+                                        <span class="badge bg-warning text-dark">Bekliyor</span>
+                                    }
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="col-lg-5">
+        <div class="card border-0 shadow-sm">
+            <div class="card-body">
+                <h5 class="fw-bold mb-3">Son Yorumlar</h5>
+
+                @foreach (var item in Model.LastComments)
+                {
+                    <div class="border-bottom pb-3 mb-3">
+                        <h6 class="fw-bold mb-1">@item.FullName</h6>
+                        <small class="text-muted">@item.ProductPackage.Name</small>
+                        <p class="mb-1 mt-2">@item.Message</p>
+
+                        @if (item.IsApproved)
+                        {
+                            <span class="badge bg-success">Onaylandı</span>
+                        }
+                        else
+                        {
+                            <span class="badge bg-warning text-dark">Bekliyor</span>
+                        }
+                    </div>
+                }
+
+            </div>
+        </div>
+    </div>
+</div>
+

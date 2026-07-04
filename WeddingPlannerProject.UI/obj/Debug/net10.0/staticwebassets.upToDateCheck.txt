@@ -1,0 +1,187 @@
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\10.Projem\WeddingPlannerProject.UI\WeddingPlannerProject.UI\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\10.Projem\WeddingPlannerProject.UI\WeddingPlannerProject.UI\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\10.Projem\WeddingPlannerProject.UI\WeddingPlannerProject.UI\wwwroot\lib\bootstrap\dist\css\bootstrap.css
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\10.Projem\WeddingPlannerProject.UI\WeddingPlannerProject.UI\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\10.Projem\WeddingPlannerProject.UI\WeddingPlannerProject.UI\wwwroot\js\plugins.js
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\10.Projem\WeddingPlannerProject.UI\WeddingPlannerProject.UI\wwwroot\lib\jquery-validation\dist\jquery.validate.js
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\10.Projem\WeddingPlannerProject.UI\WeddingPlannerProject.UI\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\10.Projem\WeddingPlannerProject.UI\WeddingPlannerProject.UI\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\10.Projem\WeddingPlannerProject.UI\WeddingPlannerProject.UI\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\10.Projem\WeddingPlannerProject.UI\WeddingPlannerProject.UI\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\10.Projem\WeddingPlannerProject.UI\WeddingPlannerProject.UI\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\10.Projem\WeddingPlannerProject.UI\WeddingPlannerProject.UI\wwwroot\lib\jquery\LICENSE.txt
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\10.Projem\WeddingPlannerProject.UI\WeddingPlannerProject.UI\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\10.Projem\WeddingPlannerProject.UI\WeddingPlannerProject.UI\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\10.Projem\WeddingPlannerProject.UI\WeddingPlannerProject.UI\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\10.Projem\WeddingPlannerProject.UI\WeddingPlannerProject.UI\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\10.Projem\WeddingPlannerProject.UI\WeddingPlannerProject.UI\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\10.Projem\WeddingPlannerProject.UI\WeddingPlannerProject.UI\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\10.Projem\WeddingPlannerProject.UI\WeddingPlannerProject.UI\wwwroot\lib\jquery-validation\LICENSE.md
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\10.Projem\WeddingPlannerProject.UI\WeddingPlannerProject.UI\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\10.Projem\WeddingPlannerProject.UI\WeddingPlannerProject.UI\wwwroot\lib\jquery\dist\jquery.min.js
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\10.Projem\WeddingPlannerProject.UI\WeddingPlannerProject.UI\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\10.Projem\WeddingPlannerProject.UI\WeddingPlannerProject.UI\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\10.Projem\WeddingPlannerProject.UI\WeddingPlannerProject.UI\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\10.Projem\WeddingPlannerProject.UI\WeddingPlannerProject.UI\wwwroot\readme.txt
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\10.Projem\WeddingPlannerProject.UI\WeddingPlannerProject.UI\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\10.Projem\WeddingPlannerProject.UI\WeddingPlannerProject.UI\wwwroot\lib\jquery\dist\jquery.slim.js
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\10.Projem\WeddingPlannerProject.UI\WeddingPlannerProject.UI\wwwroot\lib\jquery\dist\jquery.min.map
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\10.Projem\WeddingPlannerProject.UI\WeddingPlannerProject.UI\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\10.Projem\WeddingPlannerProject.UI\WeddingPlannerProject.UI\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\10.Projem\WeddingPlannerProject.UI\WeddingPlannerProject.UI\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\10.Projem\WeddingPlannerProject.UI\WeddingPlannerProject.UI\wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\10.Projem\WeddingPlannerProject.UI\WeddingPlannerProject.UI\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\10.Projem\WeddingPlannerProject.UI\WeddingPlannerProject.UI\wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.min.js
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\10.Projem\WeddingPlannerProject.UI\WeddingPlannerProject.UI\wwwroot\lib\jquery-validation\dist\additional-methods.min.js
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\10.Projem\WeddingPlannerProject.UI\WeddingPlannerProject.UI\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\10.Projem\WeddingPlannerProject.UI\WeddingPlannerProject.UI\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\10.Projem\WeddingPlannerProject.UI\WeddingPlannerProject.UI\wwwroot\js\jquery-1.11.0.min.js
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\10.Projem\WeddingPlannerProject.UI\WeddingPlannerProject.UI\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\10.Projem\WeddingPlannerProject.UI\WeddingPlannerProject.UI\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\10.Projem\WeddingPlannerProject.UI\WeddingPlannerProject.UI\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\10.Projem\WeddingPlannerProject.UI\WeddingPlannerProject.UI\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\10.Projem\WeddingPlannerProject.UI\WeddingPlannerProject.UI\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\10.Projem\WeddingPlannerProject.UI\WeddingPlannerProject.UI\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\10.Projem\WeddingPlannerProject.UI\WeddingPlannerProject.UI\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\10.Projem\WeddingPlannerProject.UI\WeddingPlannerProject.UI\wwwroot\lib\jquery\dist\jquery.js
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\10.Projem\WeddingPlannerProject.UI\WeddingPlannerProject.UI\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\10.Projem\WeddingPlannerProject.UI\WeddingPlannerProject.UI\wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.js
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\10.Projem\WeddingPlannerProject.UI\WeddingPlannerProject.UI\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\10.Projem\WeddingPlannerProject.UI\WeddingPlannerProject.UI\wwwroot\lib\jquery\dist\jquery.slim.min.js
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\10.Projem\WeddingPlannerProject.UI\WeddingPlannerProject.UI\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\10.Projem\WeddingPlannerProject.UI\WeddingPlannerProject.UI\wwwroot\lib\jquery\dist\jquery.slim.min.map
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\10.Projem\WeddingPlannerProject.UI\WeddingPlannerProject.UI\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\10.Projem\WeddingPlannerProject.UI\WeddingPlannerProject.UI\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\10.Projem\WeddingPlannerProject.UI\WeddingPlannerProject.UI\wwwroot\lib\jquery-validation\dist\additional-methods.js
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\10.Projem\WeddingPlannerProject.UI\WeddingPlannerProject.UI\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\10.Projem\WeddingPlannerProject.UI\WeddingPlannerProject.UI\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\10.Projem\WeddingPlannerProject.UI\WeddingPlannerProject.UI\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\10.Projem\WeddingPlannerProject.UI\WeddingPlannerProject.UI\wwwroot\lib\bootstrap\dist\js\bootstrap.js
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\10.Projem\WeddingPlannerProject.UI\WeddingPlannerProject.UI\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\10.Projem\WeddingPlannerProject.UI\WeddingPlannerProject.UI\wwwroot\style.css
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\10.Projem\WeddingPlannerProject.UI\WeddingPlannerProject.UI\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\10.Projem\WeddingPlannerProject.UI\WeddingPlannerProject.UI\wwwroot\js\script.js
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\10.Projem\WeddingPlannerProject.UI\WeddingPlannerProject.UI\wwwroot\css\vendor.css
+C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\10.Projem\WeddingPlannerProject.UI\WeddingPlannerProject.UI\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css
+wwwroot\css\ajax-loader.gif
+wwwroot\css\vendor.css
+wwwroot\images\about-img.jpg
+wwwroot\images\akk.jpg
+wwwroot\images\background-1.jpg
+wwwroot\images\banner-img1.jpg
+wwwroot\images\banner-img2.jpg
+wwwroot\images\banner-img3.jpg
+wwwroot\images\banner-img4.jpg
+wwwroot\images\banner-img5.jpg
+wwwroot\images\banner-img6.jpg
+wwwroot\images\bg-pattern.png
+wwwroot\images\bg-pattern1.png
+wwwroot\images\bg-pattern11.png
+wwwroot\images\bg-pattern2.png
+wwwroot\images\blog-1.jpg
+wwwroot\images\blog-2.jpg
+wwwroot\images\blog-3.jpg
+wwwroot\images\blog-4.jpg
+wwwroot\images\blog-lg.jpg
+wwwroot\images\chocolat\close.png
+wwwroot\images\chocolat\fullscreen-black.png
+wwwroot\images\chocolat\fullscreen.png
+wwwroot\images\chocolat\left.png
+wwwroot\images\chocolat\loader.gif
+wwwroot\images\chocolat\right.png
+wwwroot\images\commentor-item1.jpg
+wwwroot\images\commentor-item2.jpg
+wwwroot\images\commentor-item3.jpg
+wwwroot\images\item-1.jpg
+wwwroot\images\item-2.jpg
+wwwroot\images\item-3.jpg
+wwwroot\images\item-4.jpg
+wwwroot\images\item-5.jpg
+wwwroot\images\item-6.jpg
+wwwroot\images\item-7.jpg
+wwwroot\images\main-logo-footer.png
+wwwroot\images\main-logo.png
+wwwroot\images\post-1.jpg
+wwwroot\images\post-2.jpg
+wwwroot\images\post-3.jpg
+wwwroot\images\post-4.jpg
+wwwroot\images\post-5.jpg
+wwwroot\images\post-6.jpg
+wwwroot\images\reviewer1.jpg
+wwwroot\images\reviewer2.jpg
+wwwroot\images\reviewer3.jpg
+wwwroot\images\service-img1.jpg
+wwwroot\images\service-img2.jpg
+wwwroot\images\service-img3.jpg
+wwwroot\images\service-img4.jpg
+wwwroot\images\team1.jpg
+wwwroot\images\team2.jpg
+wwwroot\images\team3.jpg
+wwwroot\images\team4.jpg
+wwwroot\images\team5.jpg
+wwwroot\js\ajax-loader.gif
+wwwroot\js\jquery-1.11.0.min.js
+wwwroot\js\plugins.js
+wwwroot\js\script.js
+wwwroot\lib\bootstrap\LICENSE
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap.css
+wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css
+wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
+wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
+wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.js
+wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.min.js
+wwwroot\lib\jquery-validation\LICENSE.md
+wwwroot\lib\jquery-validation\dist\additional-methods.js
+wwwroot\lib\jquery-validation\dist\additional-methods.min.js
+wwwroot\lib\jquery-validation\dist\jquery.validate.js
+wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
+wwwroot\lib\jquery\LICENSE.txt
+wwwroot\lib\jquery\dist\jquery.js
+wwwroot\lib\jquery\dist\jquery.min.js
+wwwroot\lib\jquery\dist\jquery.min.map
+wwwroot\lib\jquery\dist\jquery.slim.js
+wwwroot\lib\jquery\dist\jquery.slim.min.js
+wwwroot\lib\jquery\dist\jquery.slim.min.map
+wwwroot\readme.txt
+wwwroot\style.css

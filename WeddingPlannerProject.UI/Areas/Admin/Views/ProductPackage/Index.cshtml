@@ -1,0 +1,103 @@
+﻿@model IEnumerable<WeddingPlannerProject.Model.ProductPackage>
+
+@{
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <div>
+        <h2 class="fw-bold">Ürün / Paketler</h2>
+        <p class="text-muted">Düğün organizasyonu ürün ve paketlerini yönetin.</p>
+    </div>
+
+    <a href="/Admin/ProductPackage/Crup" class="btn btn-dark">
+        <i class="bi bi-plus-circle"></i> Yeni Ekle
+    </a>
+</div>
+
+<div class="card border-0 shadow-sm">
+    <div class="card-body">
+        <table class="table table-hover align-middle">
+            <thead>
+                <tr>
+                    <th>Resim</th>
+                    <th>Ad</th>
+                    <th>Kategori</th>
+                    <th>Fiyat</th>
+                    <th>Tür</th>
+                    <th>Popüler</th>
+                    <th>Durum</th>
+                    <th class="text-end">İşlemler</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @if (!string.IsNullOrEmpty(item.ImageUrl))
+                            {
+                                <img src="@item.ImageUrl" width="80" height="60" style="object-fit:cover;" class="rounded" />
+                            }
+                            else
+                            {
+                                <span class="text-muted">Resim yok</span>
+                            }
+                        </td>
+
+                        <td>@item.Name</td>
+                        <td>@item.Category.CategoryName</td>
+
+                        <td>@item.Price ₺</td>
+
+                        <td>
+                            @if (item.IsPackage)
+                            {
+                                <span class="badge bg-success">Paket</span>
+                            }
+                            else
+                            {
+                                <span class="badge bg-secondary">Ürün</span>
+                            }
+                        </td>
+                        <td>
+                            @if (item.IsPopular)
+                            {
+                                <span class="badge bg-warning text-dark">
+                                    <i class="bi bi-star-fill"></i> Popüler
+                                </span>
+                            }
+                            else
+                            {
+                                <span class="badge bg-secondary">
+                                    Normal
+                                </span>
+                            }
+                        </td>
+                        <td>
+                            @if (item.IsActive)
+                            {
+                                <span class="badge bg-primary">Aktif</span>
+                            }
+                            else
+                            {
+                                <span class="badge bg-danger">Pasif</span>
+                            }
+                        </td>
+
+                        <td class="text-end">
+                            <a href="/Admin/ProductPackage/Crup/@item.Id" class="btn btn-sm btn-outline-primary">
+                                <i class="bi bi-pencil"></i> Güncelle
+                            </a>
+
+                            <a href="/Admin/ProductPackage/Delete/@item.Id" class="btn btn-sm btn-outline-danger">
+                                <i class="bi bi-trash"></i> Sil
+                            </a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

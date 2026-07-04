@@ -1,0 +1,533 @@
+﻿@model IEnumerable<WeddingPlannerProject.Model.ProductPackage>
+@{
+    Layout = "_UserLayout";
+}
+
+  <section id="slider" class="overflow-hidden">
+    <div class="container-lg">
+      <div class="row flex-row-reverse align-items-center">
+        <div class="col-md-8" data-aos="fade-up">
+          <div class="swiper slider">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide ">
+                <div>
+                  <img src="~/images/banner-img1.jpg" class="img-fluid" alt="banner-img1">
+                </div>
+              </div>
+              <div class="swiper-slide ">
+                <div>
+                  <img src="~/images/banner-img2.jpg" class="img-fluid" alt="banner-img1">
+                </div>
+              </div>
+              <div class="swiper-slide ">
+                <div>
+                  <img src="~/images/banner-img3.jpg" class="img-fluid" alt="banner-img1">
+                </div>
+              </div>
+              <div class="swiper-slide ">
+                <div>
+                  <img src="~/images/banner-img4.jpg" class="img-fluid" alt="banner-img1">
+                </div>
+              </div>
+              <div class="swiper-slide ">
+                <div>
+                  <img src="~/images/banner-img5.jpg" class="img-fluid" alt="banner-img1">
+                </div>
+              </div>
+              <div class="swiper-slide ">
+                <div>
+                  <img src="~/images/banner-img6.jpg" class="img-fluid" alt="banner-img1">
+                </div>
+              </div>
+
+            </div>
+            <div class="position-absolute top-0 bottom-0 end-0 m-auto me-0 me-md-5 main-slider-button-next">
+              <svg class="arrow-right light-color" width="60" height="60">
+                <use xlink:href="#arrow-right"></use>
+              </svg>
+            </div>
+            <div class="position-absolute top-0 bottom-0 start-0 m-auto ms-0 ms-md-5 main-slider-button-prev">
+              <svg class="arrow-left light-color" width="60" height="60">
+                <use xlink:href="#arrow-left"></use>
+              </svg>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mt-4 mt-md-0" data-aos="fade-up">
+          <div class="section-title">
+            <h2 class="display-4 fw-normal mb-3 text-capitalize">En Güvenilir ve Zarif Organizasyon
+            </h2>
+          </div>
+          <p>Düğün planlama hizmetlerimizle yaratıcılık, özen ve keyfin mükemmel birleşimini yaşayın. Uzman planlayıcılarımız, samimi törenlerden görkemli resepsiyonlara kadar unutulmaz kutlamalar yaratmaya adanmıştır ve özel gününüzün sizin benzersiz aşk hikayenizi yansıtmasını sağlar.</p>
+          <a class="btn btn-primary mt-3" href="about.html">Daha Fazla</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="categories" class="overflow-hidden">
+    <div class="container-lg padding-medium">
+      <div class="row" data-aos="fade-up">
+        <div class="col-md-3 my-3">
+          <div class="text-center">
+            <iconify-icon icon="solar:star-linear" class="service-icon text-primary display-3"></iconify-icon>
+            <h3 class="py-2">10+ Yıllık Deneyim</h3>
+            <p class="blog-paragraph">Uzmanlık ve tutkuyla rüya gibi düğünler yaratıyoruz. Sizin hayalleriniz, bizim adanmışlığımız.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-3 my-3">
+          <div class="text-center">
+            <iconify-icon class="service-icon text-primary display-3" icon="ph:plant-light"></iconify-icon>
+            <h3 class="py-2">Çevre Dostu Seçenekler</h3>
+            <p class="blog-paragraph">Yerel kaynaklı çiçeklerle düzenlenen sürdürülebilir düğünler.</p>
+          </div>
+        </div>
+        <div class="col-md-3 my-3">
+          <div class="text-center">
+            <iconify-icon class="service-icon text-primary display-3"
+              icon="solar:chat-square-like-broken"></iconify-icon>
+            <h3 class="py-2">5k+ Mutlu Çift</h3>
+            <p class="blog-paragraph">Çiftler, kusursuz ve stressiz kutlamalar düzenlemesi konusunda bize güveniyor.</p>
+          </div>
+        </div>
+        <div class="col-md-3 my-3">
+          <div class="text-center">
+            <iconify-icon class="service-icon text-primary display-3"
+              icon="fluent:people-team-28-regular"></iconify-icon>
+            <h3 class="py-2">28 Uzman Ekip</h3>
+            <p class="blog-paragraph">Tasarım, koordinasyon ve konuk ağırlama alanlarında uzmanlaşmış yetenekli bir ekip.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="position-relative overflow-hidden">
+    <div class="position-absolute top-0 end-0 z-n1 d-none d-md-block">
+      <img src="~/images/bg-pattern11.png" alt="pattern" class="img-fluid">
+    </div>
+    <div class="position-absolute bottom-0 z-n1 d-none d-md-block">
+      <img src="~/images/bg-pattern1.png" alt="pattern" class="img-fluid">
+    </div>
+    <div class="container">
+      <div class="row align-items-center p-5 g-md-5">
+        <div class="col-md-5" data-aos="fade-right">
+          <img src="~/images/about-img.jpg" class="img-fluid" alt="image">
+        </div>
+        <div class="col-md-7 mt-5 mt-md-0" data-aos="fade-left">
+          <div class="text-content ps-md-5">
+            <h6 class="fw-normal text-primary">Hakkımızda</h6>
+            <h3 class="display-5 fw-normal">Hayalinizdeki Düğünü Hazırlayalım</h3>
+            <p>Merhaba, ben Eylül; işine kendini adamış bir düğün organizatörü, romantizm tutkunu ve mutlu bir evliliğe sahip bir eşim. Tutkum, düğün hayallerinizi gerçeğe dönüştürmek, benzersiz aşk hikayenizi yansıtan unutulmaz anlar yaratmak ve tüm stresi omuzlarınızdan almak.</p>
+            <a href="#" class="btn btn-primary mt-2">Hakkımızda</a>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="border border-2 border-primary rounded-2">
+      </div> -->
+    </div>
+  </section>
+
+  <section id="services" class="overflow-hidden">
+    <div class="container-lg padding-medium">
+      <div class="section-title text-center mb-4">
+        <h6 class="fw-normal text-primary">Hizmetlerimiz</h6>
+        <h3 class="display-5 fw-normal ">Sunduğumuz Hizmetler</h3>
+      </div>
+      <div class="row g-lg-5 my-0">
+           @foreach (var item in Model.Where(x => !x.IsPackage))
+            {  
+            <div class="col-md-6 col-lg-3 my-4" data-aos="fade-up" data-aos-duration="1000">
+          <div class="card p-3 text-center">
+            <a href="services-single.html">
+              <div class="zoom-effect">
+                <img src="@item.ImageUrl" class="img-fluid" alt="image">
+              </div>
+            </a>
+            <a href="services-single.html" class="hover-color">
+              <h4 class="mt-3 mb-2">@item.Name</h4>
+            </a>
+            <p class="card-text">@item.Description
+            </p>
+            <div class="text-center">
+              <a class="btn btn-outline-primary mb-3 px-3 py-1 fs-6 text-capitalize" href="/User/Home/Detail/@item.Id">Bilgi Al</a>
+            </div>
+          </div>
+        </div>
+ }
+      </div>
+    </div>
+  </section>
+
+  <section id="gallery" class="overflow-hidden">
+    <div class="container-lg" data-aos="fade-up">
+      <h6 class="fw-normal text-center text-primary">Galerimiz</h6>
+      <h2 class="display-4 fw-normal text-center mb-4">Düğün Törenlerimiz</h2>
+      <div class="row entry-container">
+        <div class="entry-item col-md-4 my-3">
+          <a href="images/post-3.jpg" title="photo" class="image-link"><img src="~/images/post-3.jpg"
+              class=" post-image img-fluid  "></a>
+        </div>
+        <div class="entry-item col-md-4 my-3">
+          <a href="images/post-6.jpg" title="photo" class="image-link"><img src="~/images/post-6.jpg"
+              class=" post-image img-fluid  "></a>
+        </div>
+        <div class="entry-item col-md-4 my-3">
+          <a href="images/post-2.jpg" title="photo" class="image-link"><img src="~/images/post-2.jpg"
+              class=" post-image img-fluid  "></a>
+        </div>
+        <div class="entry-item col-md-4 my-3">
+          <a href="images/post-4.jpg" title="photo" class="image-link"><img src="~/images/post-4.jpg"
+              class=" post-image img-fluid  "></a>
+        </div>
+        <div class="entry-item col-md-4 my-3">
+          <a href="images/post-5.jpg" title="photo" class="image-link"><img src="~/images/post-5.jpg"
+              class=" post-image img-fluid  "></a>
+        </div>
+
+        <div class="entry-item col-md-4 my-3">
+          <a href="images/post-1.jpg" title="photo" class="image-link"><img src="~/images/post-1.jpg"
+              class=" post-image img-fluid  "></a>
+        </div>
+
+      </div>
+      <!-- <div class="text-center">
+        <a class="btn btn-primary mt-5" href="gallery.html">View Gallery</a>
+      </div> -->
+    </div>
+  </section>
+
+  <section id="price" class="overflow-hidden">
+    <div class="container padding-medium">
+      <h6 class="fw-normal text-center text-primary">Grab it now!</h6>
+      <h2 class="display-4 fw-normal text-center mb-4">Pricing Plans</h2>
+      <div class="row g-lg-5">
+          @foreach (var item in Model.Where(x => x.IsPackage))
+            { 
+            <div class="col-lg-4 pb-4" data-aos="fade-up" data-aos-duration="1000">
+          <div class="card p-4 text-center">
+            <div class="border border-2 border-primary rounded-2">
+              <h4 class="secondary-heading mt-5">@item.Name</h4>
+             <h4 class="display-4 mb-4">
+    @item.Price.ToString("N0") ₺
+</h4>
+
+              <div class="price-option">
+                <p>@item.Description</p>
+              </div>
+
+              <a href="#" class="btn btn-primary mt-3 mb-5">Rezervasyon Yap</a>
+            </div>
+          </div>
+        </div>
+       }
+      </div>
+    </div>
+  </section>
+
+  <section id="package" class="overflow-hidden">
+    <div class="container-lg" data-aos="fade-up">
+      <div class="d-md-flex align-items-center justify-content-between mb-5">
+        <h2 class="display-4 fw-normal ">Popular Package</h2>
+        <a class="btn btn-primary" href="shop.html">View all</a>
+      </div>
+      <div class="swiper  swiper-carousel mb-5">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="product-item">
+              <div class="card p-3 image-holder position-relative">
+                <a href="single-product.html">
+                  <img src="~/images/item-6.jpg" alt="Wedding Cake" class="product-image img-fluid">
+                </a>
+                <a href="wishlist.html" class="btn-icon btn-wishlist rounded-circle">
+                  <svg width="20" height="20">
+                    <use xlink:href="#heart"></use>
+                  </svg>
+                </a>
+                <a href="cart.html" class="btn-icon btn-cart rounded-circle">
+                  <svg width="20" height="20">
+                    <use xlink:href="#cart"></use>
+                  </svg>
+                </a>
+                <div class="product-content d-flex justify-content-between align-items-center">
+                  <h5 class="element-title mt-3">
+                    <a href="single-product.html">Custom Wedding Cake</a>
+                  </h5>
+                  <h5 class="element-title mt-3">$650</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="product-item">
+              <div class="card p-3 image-holder position-relative">
+                <a href="single-product.html">
+                  <img src="~/images/item-3.jpg" alt="Photography Package" class="product-image img-fluid">
+                </a>
+                <a href="wishlist.html" class="btn-icon btn-wishlist rounded-circle">
+                  <svg width="20" height="20">
+                    <use xlink:href="#heart"></use>
+                  </svg>
+                </a>
+                <a href="cart.html" class="btn-icon btn-cart rounded-circle">
+                  <svg width="20" height="20">
+                    <use xlink:href="#cart"></use>
+                  </svg>
+                </a>
+                <div class="product-content d-flex justify-content-between align-items-center">
+                  <h5 class="element-title mt-3">
+                    <a href="single-product.html">Photography Package</a>
+                  </h5>
+                  <h5 class="element-title mt-3">$2,500</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="product-item">
+              <div class="card p-3 image-holder position-relative">
+                <a href="single-product.html">
+                  <img src="~/images/item-1.jpg" alt="Wedding Invitations" class="product-image img-fluid">
+                </a>
+                <a href="wishlist.html" class="btn-icon btn-wishlist rounded-circle">
+                  <svg width="20" height="20">
+                    <use xlink:href="#heart"></use>
+                  </svg>
+                </a>
+                <a href="cart.html" class="btn-icon btn-cart rounded-circle">
+                  <svg width="20" height="20">
+                    <use xlink:href="#cart"></use>
+                  </svg>
+                </a>
+                <div class="product-content d-flex justify-content-between align-items-center">
+                  <h5 class="element-title mt-3">
+                    <a href="single-product.html">Wedding Invitations</a>
+                  </h5>
+                  <h5 class="element-title mt-3">$450</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="product-item">
+              <div class="card p-3 image-holder position-relative">
+                <a href="single-product.html">
+                  <img src="~/images/item-5.jpg" alt="Bridal Accessories" class="product-image img-fluid">
+                </a>
+                <a href="wishlist.html" class="btn-icon btn-wishlist rounded-circle">
+                  <svg width="20" height="20">
+                    <use xlink:href="#heart"></use>
+                  </svg>
+                </a>
+                <a href="cart.html" class="btn-icon btn-cart rounded-circle">
+                  <svg width="20" height="20">
+                    <use xlink:href="#cart"></use>
+                  </svg>
+                </a>
+                <div class="product-content d-flex justify-content-between align-items-center">
+                  <h5 class="element-title mt-3">
+                    <a href="single-product.html">Bridal Accessories Set</a>
+                  </h5>
+                  <h5 class="element-title mt-3">$280</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="product-item">
+              <div class="card p-3 image-holder position-relative">
+                <a href="single-product.html">
+                  <img src="~/images/item-2.jpg" alt="Wedding Planning Package" class="product-image img-fluid">
+                </a>
+                <a href="wishlist.html" class="btn-icon btn-wishlist rounded-circle">
+                  <svg width="20" height="20">
+                    <use xlink:href="#heart"></use>
+                  </svg>
+                </a>
+                <a href="cart.html" class="btn-icon btn-cart rounded-circle">
+                  <svg width="20" height="20">
+                    <use xlink:href="#cart"></use>
+                  </svg>
+                </a>
+                <div class="product-content d-flex justify-content-between align-items-center">
+                  <h5 class="element-title mt-3">
+                    <a href="single-product.html">Wedding Planning Package</a>
+                  </h5>
+                  <h5 class="element-title mt-3">$1,999</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="product-item">
+              <div class="card p-3 image-holder position-relative">
+                <a href="single-product.html">
+                  <img src="~/images/item-4.jpg" alt="Honeymoon Package" class="product-image img-fluid">
+                </a>
+                <a href="wishlist.html" class="btn-icon btn-wishlist rounded-circle">
+                  <svg width="20" height="20">
+                    <use xlink:href="#heart"></use>
+                  </svg>
+                </a>
+                <a href="cart.html" class="btn-icon btn-cart rounded-circle">
+                  <svg width="20" height="20">
+                    <use xlink:href="#cart"></use>
+                  </svg>
+                </a>
+                <div class="product-content d-flex justify-content-between align-items-center">
+                  <h5 class="element-title mt-3">
+                    <a href="single-product.html">Honeymoon Package</a>
+                  </h5>
+                  <h5 class="element-title mt-3">$3,200</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="product-item">
+              <div class="card p-3 image-holder position-relative">
+                <a href="single-product.html">
+                  <img src="~/images/item-7.jpg" alt="Bridal Bouquet" class="product-image img-fluid">
+                </a>
+                <a href="wishlist.html" class="btn-icon btn-wishlist rounded-circle">
+                  <svg width="20" height="20">
+                    <use xlink:href="#heart"></use>
+                  </svg>
+                </a>
+                <a href="cart.html" class="btn-icon btn-cart rounded-circle">
+                  <svg width="20" height="20">
+                    <use xlink:href="#cart"></use>
+                  </svg>
+                </a>
+                <div class="product-content d-flex justify-content-between align-items-center">
+                  <h5 class="element-title mt-3">
+                    <a href="single-product.html">Premium Bridal Bouquet</a>
+                  </h5>
+                  <h5 class="element-title mt-3">$350</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination swiper-pagination-product"></div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="testimonial" class="bg-primary position-relative overflow-hidden">
+    <div class="position-absolute top-0 end-0 pattern-up-about d-none d-md-block">
+      <img src="~/images/bg-pattern2.png" alt="pattern" class="img-fluid">
+    </div>
+    <div class="position-absolute bottom-0 d-none d-md-block">
+      <img src="~/images/bg-pattern2.png" alt="pattern" class="img-fluid">
+    </div>
+    <div class="container-lg padding-medium" data-aos="fade-up">
+      <div class="text-center">
+        <svg class="quote text-white-50">
+          <use xlink:href="#quote"></use>
+        </svg>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <div class="swiper testimonial-swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="review">
+                  <div class="review-content text-center">
+                    <p class="text-white fs-3 lh-base">"Emily transformed our wedding vision into reality beyond our
+                      expectations! Her attention to detail and creative solutions made our day absolutely perfect. We
+                      couldn't have done it without her expertise and calm guidance."</p>
+                    <img src="~/images/reviewer1.jpg" alt="reviewer" class="img-fluid rounded-circle">
+                    <h5 class="text-white m-0 lh-sm">Sarah & Michael</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="review">
+                  <div class="review-content text-center">
+                    <p class="text-white fs-3 lh-base">"From the first consultation to our magical send-off, the
+                      planning team made everything seamless. They handled every crisis before we even knew about it,
+                      allowing us to simply enjoy our special day. Worth every penny!"</p>
+                    <img src="~/images/reviewer2.jpg" alt="reviewer" class="img-fluid rounded-circle">
+                    <h5 class="text-white m-0 lh-sm">Jessica & David</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="review">
+                  <div class="review-content text-center">
+                    <p class="text-white fs-3 lh-base">"Our destination wedding was flawless thanks to their
+                      coordination. They managed vendors across three countries and created the most romantic atmosphere
+                      we could imagine. Every guest said it was the best wedding they'd ever attended!"</p>
+                    <img src="~/images/reviewer3.jpg" alt="reviewer" class="img-fluid rounded-circle">
+                    <h5 class="text-white m-0 lh-sm">Amanda & James</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+
+  <section id="inquiry" class="jarallax overflow-hidden"
+    style="background-image: url(/images/background-1.jpg); background-repeat: no-repeat; background-position: center;">
+    <div class="container-lg padding-medium">
+      <div class="col-md-6 text-center" data-aos="fade-right">
+        <div class="card p-4">
+          <div class="p-4 border border-2 border-primary rounded-2">
+            <h2 class="display-4 fw-normal mb-3">Make An Inquiry</h2>
+            <p class="">Call: 666 333 9999 or Fill in the form below</p>
+            <form class="contact-form row mt-5">
+              <div class="form-input col-lg-12 d-md-flex mb-3">
+                <input type="text" name="name" placeholder="Write Your Name Here"
+                  class="form-control w-100 ps-4 py-3 mb-2 me-3">
+                <input type="text" name="email" placeholder="Write Your Email Here"
+                  class="form-control w-100 ps-4 py-3 mb-2">
+              </div>
+              <div class="form-input col-lg-12 d-md-flex mb-3">
+                <input type="number" name="phone" placeholder="Contact number"
+                  class="form-control w-100 ps-4 py-3 mb-2 me-3">
+                <input type="number" name="person" placeholder="No of People"
+                  class="form-control w-100 ps-4 py-3 mb-2 ">
+              </div>
+              <div class="form-input col-lg-12 d-md-flex mb-3">
+                <input type="date" name="phone" placeholder="Contact number"
+                  class="form-control w-100 ps-4 py-3 mb-2 me-3">
+                <input type="time" name="person" placeholder="No of People" class="form-control w-100 ps-4 py-3 mb-2 ">
+              </div>
+              <div class="col-md-12 col-sm-12 mb-4">
+                <textarea type="text" name="message" placeholder="Your message" rows="4"
+                  class="form-control w-100 ps-4 py-3 "></textarea>
+              </div>
+            </form>
+            <button class="btn btn-primary mt-3" href="#">Send Now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+  @if (TempData["ReservationSuccess"] != null)
+{
+    <script>
+        Swal.fire({
+            icon: 'success',
+            title: 'Rezervasyon Alındı',
+            text: 'Rezervasyon talebiniz başarıyla alınmıştır. Admin onayından sonra sizinle iletişime geçilecektir.',
+            confirmButtonText: 'Tamam',
+            confirmButtonColor: '#c89b6d'
+        });
+    </script>
+}
