@@ -3,7 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\eylul\\Documents\\GitHub\\10-BlissEventPlanner\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/WeddingPlannerDb/True/SqlTable/dbo.AspNetUsers.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+      "AbsoluteMoniker": "D:0:0:{F76EBF3D-EAE4-4183-3A56-6A9D3518E64E}|WeddingPlannerProject.UI\\WeddingPlannerProject.UI.csproj|c:\\users\\eylul\\documents\\github\\10-blisseventplanner\\weddingplannerproject.ui\\areas\\user\\views\\shared\\_userlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F76EBF3D-EAE4-4183-3A56-6A9D3518E64E}|WeddingPlannerProject.UI\\WeddingPlannerProject.UI.csproj|solutionrelative:weddingplannerproject.ui\\areas\\user\\views\\shared\\_userlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F76EBF3D-EAE4-4183-3A56-6A9D3518E64E}|WeddingPlannerProject.UI\\WeddingPlannerProject.UI.csproj|c:\\users\\eylul\\documents\\github\\10-blisseventplanner\\weddingplannerproject.ui\\areas\\user\\views\\about\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -12,10 +13,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{F76EBF3D-EAE4-4183-3A56-6A9D3518E64E}|WeddingPlannerProject.UI\\WeddingPlannerProject.UI.csproj|c:\\users\\eylul\\documents\\github\\10-blisseventplanner\\weddingplannerproject.ui\\areas\\user\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F76EBF3D-EAE4-4183-3A56-6A9D3518E64E}|WeddingPlannerProject.UI\\WeddingPlannerProject.UI.csproj|solutionrelative:weddingplannerproject.ui\\areas\\user\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F76EBF3D-EAE4-4183-3A56-6A9D3518E64E}|WeddingPlannerProject.UI\\WeddingPlannerProject.UI.csproj|c:\\users\\eylul\\documents\\github\\10-blisseventplanner\\weddingplannerproject.ui\\areas\\user\\views\\shared\\_userlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F76EBF3D-EAE4-4183-3A56-6A9D3518E64E}|WeddingPlannerProject.UI\\WeddingPlannerProject.UI.csproj|solutionrelative:weddingplannerproject.ui\\areas\\user\\views\\shared\\_userlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F76EBF3D-EAE4-4183-3A56-6A9D3518E64E}|WeddingPlannerProject.UI\\WeddingPlannerProject.UI.csproj|c:\\users\\eylul\\documents\\github\\10-blisseventplanner\\weddingplannerproject.ui\\areas\\user\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -30,7 +27,8 @@
       "RelativeMoniker": "D:0:0:{F76EBF3D-EAE4-4183-3A56-6A9D3518E64E}|WeddingPlannerProject.UI\\WeddingPlannerProject.UI.csproj|solutionrelative:weddingplannerproject.ui\\areas\\user\\views\\shoplist\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\eylul\\AppData\\Local\\Temp\\tkiib5ab..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\eylul\\Documents\\GitHub\\10-BlissEventPlanner\\SQLQuery1.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SQLQuery1.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F76EBF3D-EAE4-4183-3A56-6A9D3518E64E}|WeddingPlannerProject.UI\\WeddingPlannerProject.UI.csproj|c:\\users\\eylul\\documents\\github\\10-blisseventplanner\\weddingplannerproject.ui\\areas\\user\\views\\reservation\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -150,12 +148,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{8C386FDB-93A3-00FF-29F8-1FFD42577D6A}|WeddingPlannerProject.Data\\WeddingPlannerProject.Data.csproj|c:\\users\\eylul\\documents\\github\\10-blisseventplanner\\weddingplannerproject.data\\migrations\\20260701173917_addispopulartoproductpackage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8C386FDB-93A3-00FF-29F8-1FFD42577D6A}|WeddingPlannerProject.Data\\WeddingPlannerProject.Data.csproj|solutionrelative:weddingplannerproject.data\\migrations\\20260701173917_addispopulartoproductpackage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\eylul\\AppData\\Local\\Temp\\tkiib5ab..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\eylul\\AppData\\Local\\Temp\\tkiib5ab..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|ResultFrame"
     }
   ],
   "DocumentGroupContainers": [
@@ -165,7 +157,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 259,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -181,26 +173,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "dbo.AspNetUsers [Data]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/WeddingPlannerDb/True/SqlTable/dbo.AspNetUsers.sql",
-              "ToolTip": "dbo.AspNetUsers [Data]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2026-07-06T11:45:19.457Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\10-BlissEventPlanner\\WeddingPlannerProject.UI\\Areas\\User\\Views\\About\\Index.cshtml",
               "RelativeDocumentMoniker": "WeddingPlannerProject.UI\\Areas\\User\\Views\\About\\Index.cshtml",
               "ToolTip": "C:\\Users\\eylul\\Documents\\GitHub\\10-BlissEventPlanner\\WeddingPlannerProject.UI\\Areas\\User\\Views\\About\\Index.cshtml",
               "RelativeToolTip": "WeddingPlannerProject.UI\\Areas\\User\\Views\\About\\Index.cshtml",
-              "ViewState": "AgIAAHkAAAAAAAAAAAAkwJoAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAG0AAAAAAAAAAAAkwJoAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-07-06T11:12:18.271Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-06T11:12:18.271Z"
             },
             {
               "$type": "Document",
@@ -212,25 +193,24 @@
               "RelativeToolTip": "WeddingPlannerProject.UI\\Areas\\User\\Controllers\\AccountController.cs",
               "ViewState": "AgIAAD8AAAAAAAAAAAAAwFwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-06T10:50:26.285Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-06T10:50:26.285Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "_UserLayout.cshtml",
               "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\10-BlissEventPlanner\\WeddingPlannerProject.UI\\Areas\\User\\Views\\Shared\\_UserLayout.cshtml",
               "RelativeDocumentMoniker": "WeddingPlannerProject.UI\\Areas\\User\\Views\\Shared\\_UserLayout.cshtml",
               "ToolTip": "C:\\Users\\eylul\\Documents\\GitHub\\10-BlissEventPlanner\\WeddingPlannerProject.UI\\Areas\\User\\Views\\Shared\\_UserLayout.cshtml",
               "RelativeToolTip": "WeddingPlannerProject.UI\\Areas\\User\\Views\\Shared\\_UserLayout.cshtml",
-              "ViewState": "AgIAAI0AAAAAAAAAAAAEwBYBAAA8AAAAAAAAAA==",
+              "ViewState": "AgIAAJcAAAAAAAAAAAAswCEBAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-07-01T12:06:34.499Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "AboutController.cs",
               "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\10-BlissEventPlanner\\WeddingPlannerProject.UI\\Areas\\User\\Controllers\\AboutController.cs",
               "RelativeDocumentMoniker": "WeddingPlannerProject.UI\\Areas\\User\\Controllers\\AboutController.cs",
@@ -238,12 +218,11 @@
               "RelativeToolTip": "WeddingPlannerProject.UI\\Areas\\User\\Controllers\\AboutController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-02T06:04:26.898Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-02T06:04:26.898Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\10-BlissEventPlanner\\WeddingPlannerProject.UI\\Areas\\User\\Views\\ShopList\\Index.cshtml",
               "RelativeDocumentMoniker": "WeddingPlannerProject.UI\\Areas\\User\\Views\\ShopList\\Index.cshtml",
@@ -251,12 +230,11 @@
               "RelativeToolTip": "WeddingPlannerProject.UI\\Areas\\User\\Views\\ShopList\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAABMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-07-01T18:09:44.279Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-01T18:09:44.279Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\10-BlissEventPlanner\\WeddingPlannerProject.UI\\Areas\\User\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "WeddingPlannerProject.UI\\Areas\\User\\Views\\Home\\Index.cshtml",
@@ -264,12 +242,11 @@
               "RelativeToolTip": "WeddingPlannerProject.UI\\Areas\\User\\Views\\Home\\Index.cshtml",
               "ViewState": "AgIAADwAAAAAAAAAAAAAAGcAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-07-01T12:07:57.224Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-01T12:07:57.224Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 10,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\10-BlissEventPlanner\\WeddingPlannerProject.UI\\Program.cs",
               "RelativeDocumentMoniker": "WeddingPlannerProject.UI\\Program.cs",
@@ -281,7 +258,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 13,
               "Title": "style.css",
               "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\10-BlissEventPlanner\\WeddingPlannerProject.UI\\wwwroot\\style.css",
               "RelativeDocumentMoniker": "WeddingPlannerProject.UI\\wwwroot\\style.css",
@@ -293,18 +270,18 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "SQLQuery1.sql ",
-              "DocumentMoniker": "C:\\Users\\eylul\\AppData\\Local\\Temp\\tkiib5ab..sql",
-              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Temp\\tkiib5ab..sql",
-              "ToolTip": "SQLQuery1.sql *",
+              "DocumentIndex": 6,
+              "Title": "SQLQuery1.sql",
+              "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\10-BlissEventPlanner\\SQLQuery1.sql",
+              "RelativeDocumentMoniker": "SQLQuery1.sql",
+              "ToolTip": "C:\\Users\\eylul\\Documents\\GitHub\\10-BlissEventPlanner\\SQLQuery1.sql",
+              "RelativeToolTip": "SQLQuery1.sql",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2026-07-06T10:55:51.494Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-06T10:55:51.494Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 8,
               "Title": "ReservationController.cs",
               "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\10-BlissEventPlanner\\WeddingPlannerProject.UI\\Areas\\User\\Controllers\\ReservationController.cs",
               "RelativeDocumentMoniker": "WeddingPlannerProject.UI\\Areas\\User\\Controllers\\ReservationController.cs",
@@ -316,7 +293,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\10-BlissEventPlanner\\WeddingPlannerProject.UI\\Areas\\User\\Views\\Reservation\\Create.cshtml",
               "RelativeDocumentMoniker": "WeddingPlannerProject.UI\\Areas\\User\\Views\\Reservation\\Create.cshtml",
@@ -328,7 +305,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 9,
               "Title": "Detail.cshtml",
               "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\10-BlissEventPlanner\\WeddingPlannerProject.UI\\Areas\\User\\Views\\ShopList\\Detail.cshtml",
               "RelativeDocumentMoniker": "WeddingPlannerProject.UI\\Areas\\User\\Views\\ShopList\\Detail.cshtml",
@@ -340,7 +317,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 12,
               "Title": "dbo.ProductPackages.sql",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/WeddingPlannerDb/True/SqlTable/dbo.ProductPackages.sql",
               "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/WeddingPlannerDb/True/SqlTable/dbo.ProductPackages.sql",
@@ -349,7 +326,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 11,
               "Title": "ShopListController.cs",
               "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\10-BlissEventPlanner\\WeddingPlannerProject.UI\\Areas\\User\\Controllers\\ShopListController.cs",
               "RelativeDocumentMoniker": "WeddingPlannerProject.UI\\Areas\\User\\Controllers\\ShopListController.cs",
@@ -361,7 +338,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 17,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\10-BlissEventPlanner\\WeddingPlannerProject.UI\\Areas\\User\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "WeddingPlannerProject.UI\\Areas\\User\\Controllers\\HomeController.cs",
@@ -373,7 +350,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 14,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\10-BlissEventPlanner\\WeddingPlannerProject.UI\\Areas\\Admin\\Views\\ProductPackage\\Index.cshtml",
               "RelativeDocumentMoniker": "WeddingPlannerProject.UI\\Areas\\Admin\\Views\\ProductPackage\\Index.cshtml",
@@ -385,7 +362,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 36,
               "Title": "20260701173917_AddIsPopularToProductPackage.cs",
               "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\10-BlissEventPlanner\\WeddingPlannerProject.Data\\Migrations\\20260701173917_AddIsPopularToProductPackage.cs",
               "RelativeDocumentMoniker": "WeddingPlannerProject.Data\\Migrations\\20260701173917_AddIsPopularToProductPackage.cs",
@@ -397,7 +374,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 15,
               "Title": "Crup.cshtml",
               "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\10-BlissEventPlanner\\WeddingPlannerProject.UI\\Areas\\Admin\\Views\\ProductPackage\\Crup.cshtml",
               "RelativeDocumentMoniker": "WeddingPlannerProject.UI\\Areas\\Admin\\Views\\ProductPackage\\Crup.cshtml",
@@ -409,7 +386,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 18,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\10-BlissEventPlanner\\WeddingPlannerProject.UI\\Areas\\Admin\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "WeddingPlannerProject.UI\\Areas\\Admin\\Views\\Home\\Index.cshtml",
@@ -421,7 +398,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 19,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\10-BlissEventPlanner\\WeddingPlannerProject.UI\\Areas\\Admin\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "WeddingPlannerProject.UI\\Areas\\Admin\\Controllers\\HomeController.cs",
@@ -433,7 +410,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 16,
               "Title": "ProductPackage.cs",
               "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\10-BlissEventPlanner\\WeddingPlannerProject.Model\\ProductPackage.cs",
               "RelativeDocumentMoniker": "WeddingPlannerProject.Model\\ProductPackage.cs",
@@ -445,7 +422,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 20,
               "Title": "ContactRequest.cs",
               "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\10-BlissEventPlanner\\WeddingPlannerProject.Model\\ContactRequest.cs",
               "RelativeDocumentMoniker": "WeddingPlannerProject.Model\\ContactRequest.cs",
@@ -457,7 +434,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 21,
               "Title": "DashboardViewModel.cs",
               "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\10-BlissEventPlanner\\WeddingPlannerProject.UI\\Models\\ViewModels\\DashboardViewModel.cs",
               "RelativeDocumentMoniker": "WeddingPlannerProject.UI\\Models\\ViewModels\\DashboardViewModel.cs",
@@ -469,7 +446,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 22,
               "Title": "ProductPackageController.cs",
               "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\10-BlissEventPlanner\\WeddingPlannerProject.UI\\Areas\\Admin\\Controllers\\ProductPackageController.cs",
               "RelativeDocumentMoniker": "WeddingPlannerProject.UI\\Areas\\Admin\\Controllers\\ProductPackageController.cs",
@@ -481,7 +458,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 23,
               "Title": "ProductPackageViewModel.cs",
               "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\10-BlissEventPlanner\\WeddingPlannerProject.UI\\Models\\ViewModels\\ProductPackageViewModel.cs",
               "RelativeDocumentMoniker": "WeddingPlannerProject.UI\\Models\\ViewModels\\ProductPackageViewModel.cs",
@@ -493,7 +470,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 24,
               "Title": "ContactRequestController.cs",
               "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\10-BlissEventPlanner\\WeddingPlannerProject.UI\\Areas\\Admin\\Controllers\\ContactRequestController.cs",
               "RelativeDocumentMoniker": "WeddingPlannerProject.UI\\Areas\\Admin\\Controllers\\ContactRequestController.cs",
@@ -505,7 +482,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 25,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\10-BlissEventPlanner\\WeddingPlannerProject.UI\\Areas\\Admin\\Views\\ContactRequest\\Index.cshtml",
               "RelativeDocumentMoniker": "WeddingPlannerProject.UI\\Areas\\Admin\\Views\\ContactRequest\\Index.cshtml",
@@ -517,7 +494,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 26,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\10-BlissEventPlanner\\WeddingPlannerProject.UI\\Areas\\Admin\\Views\\Sale\\Index.cshtml",
               "RelativeDocumentMoniker": "WeddingPlannerProject.UI\\Areas\\Admin\\Views\\Sale\\Index.cshtml",
@@ -529,7 +506,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 27,
               "Title": "SaleController.cs",
               "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\10-BlissEventPlanner\\WeddingPlannerProject.UI\\Areas\\Admin\\Controllers\\SaleController.cs",
               "RelativeDocumentMoniker": "WeddingPlannerProject.UI\\Areas\\Admin\\Controllers\\SaleController.cs",
@@ -541,7 +518,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 28,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\10-BlissEventPlanner\\WeddingPlannerProject.UI\\Areas\\Admin\\Views\\Reservation\\Index.cshtml",
               "RelativeDocumentMoniker": "WeddingPlannerProject.UI\\Areas\\Admin\\Views\\Reservation\\Index.cshtml",
@@ -553,7 +530,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 29,
               "Title": "ReservationController.cs",
               "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\10-BlissEventPlanner\\WeddingPlannerProject.UI\\Areas\\Admin\\Controllers\\ReservationController.cs",
               "RelativeDocumentMoniker": "WeddingPlannerProject.UI\\Areas\\Admin\\Controllers\\ReservationController.cs",
@@ -565,7 +542,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 30,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\10-BlissEventPlanner\\WeddingPlannerProject.UI\\Areas\\Admin\\Views\\Comment\\Index.cshtml",
               "RelativeDocumentMoniker": "WeddingPlannerProject.UI\\Areas\\Admin\\Views\\Comment\\Index.cshtml",
@@ -577,7 +554,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 31,
               "Title": "CommentController.cs",
               "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\10-BlissEventPlanner\\WeddingPlannerProject.UI\\Areas\\Admin\\Controllers\\CommentController.cs",
               "RelativeDocumentMoniker": "WeddingPlannerProject.UI\\Areas\\Admin\\Controllers\\CommentController.cs",
@@ -589,7 +566,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 32,
               "Title": "CategoryController.cs",
               "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\10-BlissEventPlanner\\WeddingPlannerProject.UI\\Areas\\Admin\\Controllers\\CategoryController.cs",
               "RelativeDocumentMoniker": "WeddingPlannerProject.UI\\Areas\\Admin\\Controllers\\CategoryController.cs",
@@ -601,7 +578,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 33,
               "Title": "Repository.cs",
               "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\10-BlissEventPlanner\\WeddingPlannerProject.Data\\Repository\\Repository.cs",
               "RelativeDocumentMoniker": "WeddingPlannerProject.Data\\Repository\\Repository.cs",
@@ -613,7 +590,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 34,
               "Title": "IRepository.cs",
               "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\10-BlissEventPlanner\\WeddingPlannerProject.Data\\Interfaces\\IRepository.cs",
               "RelativeDocumentMoniker": "WeddingPlannerProject.Data\\Interfaces\\IRepository.cs",
@@ -625,7 +602,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 35,
               "Title": "20260701082930_AddIsActiveToProductPackagee.cs",
               "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\10-BlissEventPlanner\\WeddingPlannerProject.Data\\Migrations\\20260701082930_AddIsActiveToProductPackagee.cs",
               "RelativeDocumentMoniker": "WeddingPlannerProject.Data\\Migrations\\20260701082930_AddIsActiveToProductPackagee.cs",
@@ -634,16 +611,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-01T08:29:30.894Z"
-            }
-          ]
-        },
-        {
-          "DockedHeight": 141,
-          "SelectedChildIndex": -1,
-          "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
             }
           ]
         }
