@@ -15,3 +15,21 @@ C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\10.Projem\WeddingPla
 C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\10.Projem\WeddingPlannerProject.UI\WeddingPlannerProject.Data\obj\Debug\net10.0\WeddingPlannerProject.Data.pdb
 C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\10.Projem\WeddingPlannerProject.UI\WeddingPlannerProject.Data\obj\Debug\net10.0\WeddingPlannerProject.Data.genruntimeconfig.cache
 C:\Users\eylul\Desktop\Softito Projelerim ve gerekli kodlar\10.Projem\WeddingPlannerProject.UI\WeddingPlannerProject.Data\obj\Debug\net10.0\ref\WeddingPlannerProject.Data.dll
+C:\Users\eylul\Documents\GitHub\10-BlissEventPlanner\WeddingPlannerProject.Data\bin\Debug\net10.0\WeddingPlannerProject.Data.deps.json
+C:\Users\eylul\Documents\GitHub\10-BlissEventPlanner\WeddingPlannerProject.Data\bin\Debug\net10.0\WeddingPlannerProject.Data.runtimeconfig.json
+C:\Users\eylul\Documents\GitHub\10-BlissEventPlanner\WeddingPlannerProject.Data\bin\Debug\net10.0\WeddingPlannerProject.Data.dll
+C:\Users\eylul\Documents\GitHub\10-BlissEventPlanner\WeddingPlannerProject.Data\bin\Debug\net10.0\WeddingPlannerProject.Data.pdb
+C:\Users\eylul\Documents\GitHub\10-BlissEventPlanner\WeddingPlannerProject.Data\bin\Debug\net10.0\WeddingPlannerProject.Model.dll
+C:\Users\eylul\Documents\GitHub\10-BlissEventPlanner\WeddingPlannerProject.Data\bin\Debug\net10.0\WeddingPlannerProject.Model.pdb
+C:\Users\eylul\Documents\GitHub\10-BlissEventPlanner\WeddingPlannerProject.Data\obj\Debug\net10.0\WeddingPlannerProject.Data.csproj.AssemblyReference.cache
+C:\Users\eylul\Documents\GitHub\10-BlissEventPlanner\WeddingPlannerProject.Data\obj\Debug\net10.0\WeddingPlannerProject.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\eylul\Documents\GitHub\10-BlissEventPlanner\WeddingPlannerProject.Data\obj\Debug\net10.0\WeddingPlannerProject.Data.AssemblyInfoInputs.cache
+C:\Users\eylul\Documents\GitHub\10-BlissEventPlanner\WeddingPlannerProject.Data\obj\Debug\net10.0\WeddingPlannerProject.Data.AssemblyInfo.cs
+C:\Users\eylul\Documents\GitHub\10-BlissEventPlanner\WeddingPlannerProject.Data\obj\Debug\net10.0\WeddingPlannerProject.Data.csproj.CoreCompileInputs.cache
+C:\Users\eylul\Documents\GitHub\10-BlissEventPlanner\WeddingPlannerProject.Data\obj\Debug\net10.0\WeddingPlannerProject.Data.sourcelink.json
+C:\Users\eylul\Documents\GitHub\10-BlissEventPlanner\WeddingPlannerProject.Data\obj\Debug\net10.0\WeddingP.28064E56.Up2Date
+C:\Users\eylul\Documents\GitHub\10-BlissEventPlanner\WeddingPlannerProject.Data\obj\Debug\net10.0\WeddingPlannerProject.Data.dll
+C:\Users\eylul\Documents\GitHub\10-BlissEventPlanner\WeddingPlannerProject.Data\obj\Debug\net10.0\refint\WeddingPlannerProject.Data.dll
+C:\Users\eylul\Documents\GitHub\10-BlissEventPlanner\WeddingPlannerProject.Data\obj\Debug\net10.0\WeddingPlannerProject.Data.pdb
+C:\Users\eylul\Documents\GitHub\10-BlissEventPlanner\WeddingPlannerProject.Data\obj\Debug\net10.0\WeddingPlannerProject.Data.genruntimeconfig.cache
+C:\Users\eylul\Documents\GitHub\10-BlissEventPlanner\WeddingPlannerProject.Data\obj\Debug\net10.0\ref\WeddingPlannerProject.Data.dll
