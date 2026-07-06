@@ -1,4 +1,4 @@
-﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using WeddingPlannerProject.Model;
 using WeddingPlannerProject.Model.ViewModels;
@@ -29,17 +29,21 @@ namespace WeddingPlannerProject.UI.Areas.User.Controllers
                 return Json(new { success = false, message = "Lütfen tüm alanları doldurun." });
             }
 
+            var user = await _userManager.FindByEmailAsync(model.Email);
+            if (user == null)
+            {
+                return Json(new { success = false, message = "Email veya şifre hatalı." });
+            }
+
             var result = await _signInManager.PasswordSignInAsync(
-                model.Email,
+                user.UserName,
                 model.Password,
                 model.RememberMe,
                 false);
 
             if (result.Succeeded)
             {
-                var user = await _userManager.FindByEmailAsync(model.Email);
-
-                if (user != null && await _userManager.IsInRoleAsync(user, "Admin"))
+                if (await _userManager.IsInRoleAsync(user, "Admin"))
                 {
                     return Json(new { success = true, redirectUrl = "/Admin/Home/Index" });
                 }
@@ -74,7 +78,8 @@ namespace WeddingPlannerProject.UI.Areas.User.Controllers
                 return RedirectToAction("Index", "Home", new { area = "User" });
             }
 
-            TempData["RegisterError"] = "Kayıt işlemi başarısız oldu.";
+            var errors = string.Join(" ", result.Errors.Select(e => e.Description));
+            TempData["RegisterError"] = "Kayıt işlemi başarısız oldu: " + errors;
             return RedirectToAction("Index", "Home", new { area = "User" });
         }
 

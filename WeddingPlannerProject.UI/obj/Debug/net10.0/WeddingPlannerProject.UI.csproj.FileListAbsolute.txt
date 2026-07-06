@@ -460,10 +460,10 @@ C:\Users\eylul\Documents\GitHub\10-BlissEventPlanner\WeddingPlannerProject.UI\ob
 C:\Users\eylul\Documents\GitHub\10-BlissEventPlanner\WeddingPlannerProject.UI\obj\Debug\net10.0\staticwebassets.development.json
 C:\Users\eylul\Documents\GitHub\10-BlissEventPlanner\WeddingPlannerProject.UI\obj\Debug\net10.0\staticwebassets.build.endpoints.json
 C:\Users\eylul\Documents\GitHub\10-BlissEventPlanner\WeddingPlannerProject.UI\obj\Debug\net10.0\swae.build.ex.cache
-C:\Users\eylul\Documents\GitHub\10-BlissEventPlanner\WeddingPlannerProject.UI\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
 C:\Users\eylul\Documents\GitHub\10-BlissEventPlanner\WeddingPlannerProject.UI\obj\Debug\net10.0\WeddingP.6175D493.Up2Date
 C:\Users\eylul\Documents\GitHub\10-BlissEventPlanner\WeddingPlannerProject.UI\obj\Debug\net10.0\WeddingPlannerProject.UI.dll
 C:\Users\eylul\Documents\GitHub\10-BlissEventPlanner\WeddingPlannerProject.UI\obj\Debug\net10.0\refint\WeddingPlannerProject.UI.dll
 C:\Users\eylul\Documents\GitHub\10-BlissEventPlanner\WeddingPlannerProject.UI\obj\Debug\net10.0\WeddingPlannerProject.UI.pdb
 C:\Users\eylul\Documents\GitHub\10-BlissEventPlanner\WeddingPlannerProject.UI\obj\Debug\net10.0\WeddingPlannerProject.UI.genruntimeconfig.cache
 C:\Users\eylul\Documents\GitHub\10-BlissEventPlanner\WeddingPlannerProject.UI\obj\Debug\net10.0\ref\WeddingPlannerProject.UI.dll
+C:\Users\eylul\Documents\GitHub\10-BlissEventPlanner\WeddingPlannerProject.UI\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt

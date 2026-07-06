@@ -119,6 +119,9 @@ wwwroot\images\team2.jpg
 wwwroot\images\team3.jpg
 wwwroot\images\team4.jpg
 wwwroot\images\team5.jpg
+wwwroot\img\productpackages\a76f5a77-3cd8-4a9a-a5e3-ce37c6799af8.jpg
+wwwroot\img\productpackages\b5f0cb8c-2cac-414b-8679-968498cf0c4f.jpg
+wwwroot\img\productpackages\e8911f61-8919-4016-b260-516ce69e28fd.jpg
 wwwroot\js\ajax-loader.gif
 wwwroot\js\jquery-1.11.0.min.js
 wwwroot\js\plugins.js
